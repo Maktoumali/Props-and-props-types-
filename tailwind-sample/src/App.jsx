@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './style.css'
 import Counter from './hooks/Counter'
+import FunctionBased from './components/FunctionBased'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,10 +21,14 @@ function App() {
           <li>home</li>
         </ul>
       </div> */}
-
+      
+      <>
       <Counter></Counter>
+      <FunctionBased></FunctionBased>
+      </>
     </>
   )
 }
+
 
 export default App
