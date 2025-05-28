@@ -6,6 +6,7 @@ import './style.css'
 import Counter from './hooks/Counter'
 import FunctionBased from './components/FunctionBased'
 import ConditionalRendering from './components/conditionalRendering'
+import TernaryOperator from './components/TernaryOperator'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
       <Counter></Counter>
       <FunctionBased></FunctionBased>
       <ConditionalRendering></ConditionalRendering>
+      <TernaryOperator></TernaryOperator>
       </>
     </>
   )
