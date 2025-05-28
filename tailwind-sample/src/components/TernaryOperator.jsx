@@ -12,7 +12,7 @@ const TernaryOperator = () => {
             ) :( 
             <>
             <div>Not logged in </div>
-            <button onClick={()=> setIsloggedIn(true)} className='w-20 h-10 bg-sky-500 font-mono text-white rounded-sm tranistion duration-100 delay-200 ease hover:bg-sky-600 cursor-pointer '>Login</button>
+            <button onClick={()=> setIsloggedIn(true)} className='w-20 h-10 bg-sky-900 font-mono text-white rounded-sm tranistion duration-100 delay-200 ease ring-3 ring-sky-400 hover:bg-sky-950 cursor-pointer '>Login</button>
             </>
             )}
     </div>
