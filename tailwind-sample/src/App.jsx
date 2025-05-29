@@ -11,6 +11,7 @@ import List from './listAndKeys/List'
 import Keys from './listAndKeys/Keys'
 import Props from './PropsAndTypes/Props'
 import ObjectProps from './PropsAndTypes/ObjectProps'
+import DestructuringProps from './PropsAndTypes/DestructuringProps'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,7 +44,9 @@ function App() {
 
       {/* <Props fname='john' lastName='doe' age={29}></Props> */}
 
-      <ObjectProps cars={car}></ObjectProps>
+      {/* <ObjectProps cars={car}></ObjectProps> */}
+
+      <DestructuringProps fname='john' lname='doe' age={20}></DestructuringProps>
       </>
     </>
   )
