@@ -1,20 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
 import './App.css'
 import './style.css'
-import Counter from './hooks/Counter'
-import FunctionBased from './components/FunctionBased'
-import ConditionalRendering from './components/conditionalRendering'
-import TernaryOperator from './components/TernaryOperator'
-import List from './listAndKeys/List'
-import Keys from './listAndKeys/Keys'
-import Props from './PropsAndTypes/Props'
-import ObjectProps from './PropsAndTypes/ObjectProps'
-import DestructuringProps from './PropsAndTypes/DestructuringProps'
+// import Counter from './hooks/Counter'
+// import FunctionBased from './components/FunctionBased'
+// import ConditionalRendering from './components/conditionalRendering'
+// import TernaryOperator from './components/TernaryOperator'
+// import List from './listAndKeys/List'
+// import Keys from './listAndKeys/Keys'
+// import Props from './PropsAndTypes/Props'
+// import ObjectProps from './PropsAndTypes/ObjectProps'
+// import DestructuringProps from './PropsAndTypes/DestructuringProps'
+import NewPropComponent from './PropsAndTypes/NewPropComponent'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   const car ={
     make:'vw',
@@ -46,7 +46,9 @@ function App() {
 
       {/* <ObjectProps cars={car}></ObjectProps> */}
 
-      <DestructuringProps fname='john' lname='doe' age={20}></DestructuringProps>
+      {/* <DestructuringProps fname='john' lname='doe' age={20}></DestructuringProps> */}
+
+      <NewPropComponent fname='john doe' age={30}></NewPropComponent>
       </>
     </>
   )
