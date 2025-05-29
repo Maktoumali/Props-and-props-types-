@@ -10,10 +10,16 @@ import TernaryOperator from './components/TernaryOperator'
 import List from './listAndKeys/List'
 import Keys from './listAndKeys/Keys'
 import Props from './PropsAndTypes/Props'
+import ObjectProps from './PropsAndTypes/ObjectProps'
 
 function App() {
   const [count, setCount] = useState(0)
 
+  const car ={
+    make:'vw',
+    brand:'volkwagen',
+    model:2022,
+  }
 
   return (
     <>
@@ -35,7 +41,9 @@ function App() {
       <List></List> */}
       {/* <Keys></Keys> */}
 
-      <Props fname='john' lastName='doe' age={29}></Props>
+      {/* <Props fname='john' lastName='doe' age={29}></Props> */}
+
+      <ObjectProps cars={car}></ObjectProps>
       </>
     </>
   )
