@@ -9,6 +9,7 @@ import ConditionalRendering from './components/conditionalRendering'
 import TernaryOperator from './components/TernaryOperator'
 import List from './listAndKeys/List'
 import Keys from './listAndKeys/Keys'
+import Props from './PropsAndTypes/Props'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,7 +33,9 @@ function App() {
       <ConditionalRendering></ConditionalRendering>
       <TernaryOperator></TernaryOperator>
       <List></List> */}
-      <Keys></Keys>
+      {/* <Keys></Keys> */}
+
+      <Props fname='john' lastName='doe' age={29}></Props>
       </>
     </>
   )
