@@ -7,6 +7,7 @@ import Counter from './hooks/Counter'
 import FunctionBased from './components/FunctionBased'
 import ConditionalRendering from './components/conditionalRendering'
 import TernaryOperator from './components/TernaryOperator'
+import List from './listAndKeys/List'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
       <FunctionBased></FunctionBased>
       <ConditionalRendering></ConditionalRendering>
       <TernaryOperator></TernaryOperator>
+      <List></List>
       </>
     </>
   )
