@@ -8,6 +8,7 @@ import FunctionBased from './components/FunctionBased'
 import ConditionalRendering from './components/conditionalRendering'
 import TernaryOperator from './components/TernaryOperator'
 import List from './listAndKeys/List'
+import Keys from './listAndKeys/Keys'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,11 +27,12 @@ function App() {
       </div> */}
       
       <>
-      <Counter></Counter>
+      {/* <Counter></Counter>
       <FunctionBased></FunctionBased>
       <ConditionalRendering></ConditionalRendering>
       <TernaryOperator></TernaryOperator>
-      <List></List>
+      <List></List> */}
+      <Keys></Keys>
       </>
     </>
   )
