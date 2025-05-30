@@ -1,19 +1,14 @@
 import React from 'react'
 
-function DefaultComponent(props) {
+function DefaultComponent({fname,age=39}) {
   return (
     <div>
         <ul>
-            <li>{props.fname}</li>
-            <li>{props.age}</li>
+            <li>{fname}</li>
+            <li>{age}</li>
         </ul>
     </div>
   );
 }
-
-DefaultComponent.defaultProps = {
-  fname: 'John',
-  age: 39,
-};
 
 export default DefaultComponent

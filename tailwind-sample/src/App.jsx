@@ -10,7 +10,7 @@ import './style.css'
 // import Props from './PropsAndTypes/Props'
 // import ObjectProps from './PropsAndTypes/ObjectProps'
 // import DestructuringProps from './PropsAndTypes/DestructuringProps'
-import NewPropComponent from './PropsAndTypes/NewPropComponent'
+// import NewPropComponent from './PropsAndTypes/NewPropComponent'
 import DefaultComponent from './PropsAndTypes/DefaultComponent'
 
 
@@ -49,9 +49,11 @@ function App() {
 
       {/* <DestructuringProps fname='john' lname='doe' age={20}></DestructuringProps> */}
 
-      {/* <NewPropComponent fname='john doe' age={30}></NewPropComponent> */}
+      {/* <NewPropComponent fname='john doe' age='hello'></NewPropComponent> */}
 
       <DefaultComponent fname='john'/>
+
+
       </>
     </>
   )
