@@ -12,6 +12,7 @@ import './style.css'
 // import DestructuringProps from './PropsAndTypes/DestructuringProps'
 // import NewPropComponent from './PropsAndTypes/NewPropComponent'
 import DefaultComponent from './PropsAndTypes/DefaultComponent'
+import ChildrenProp from './PropsAndTypes/ChildrenProp'
 
 
 function App() {
@@ -51,8 +52,20 @@ function App() {
 
       {/* <NewPropComponent fname='john doe' age='hello'></NewPropComponent> */}
 
-      <DefaultComponent fname='john'/>
+      {/* <DefaultComponent fname='john'/> */}
 
+
+      <>
+      <ChildrenProp item='Random heading'>
+        <h1>Hello</h1>
+        <p>This is a child prop Heading</p>
+      </ChildrenProp>
+
+      <ChildrenProp item='Random heading'>
+        <h1>Hello</h1>
+        <p>This is a child prop Heading 2</p>
+      </ChildrenProp>
+      </>
 
       </>
     </>
