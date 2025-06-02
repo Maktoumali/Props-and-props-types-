@@ -15,6 +15,7 @@ import DefaultComponent from './PropsAndTypes/DefaultComponent'
 import ChildrenProp from './PropsAndTypes/ChildrenProp'
 import Main from './Tailwind/Main'
 import UseEffectHook from './react-hooks/UseEffectHook'
+import UseStateHook from './react-hooks/UseStateHook'
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
   return (
     <>
       <>
-      <UseEffectHook/>
+      <UseStateHook/>
       </>
     </>
   )
