@@ -14,6 +14,7 @@ import './style.css'
 import DefaultComponent from './PropsAndTypes/DefaultComponent'
 import ChildrenProp from './PropsAndTypes/ChildrenProp'
 import Main from './Tailwind/Main'
+import UseEffectHook from './react-hooks/UseEffectHook'
 
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
 
   return (
     <>
-      <Main/>
+      <>
+      <UseEffectHook/>
+      </>
     </>
   )
 }
