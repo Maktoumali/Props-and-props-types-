@@ -16,6 +16,7 @@ import ChildrenProp from './PropsAndTypes/ChildrenProp'
 import Main from './Tailwind/Main'
 import UseEffectHook from './react-hooks/UseEffectHook'
 import UseStateHook from './react-hooks/UseStateHook'
+import UseCallbackHook from './react-hooks/UseCallbackHook'
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
   return (
     <>
       <>
-      <UseStateHook/>
+      <UseCallbackHook/>
       </>
     </>
   )
