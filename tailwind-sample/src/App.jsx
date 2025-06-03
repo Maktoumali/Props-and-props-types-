@@ -20,6 +20,7 @@ import UseCallbackHook from './react-hooks/UseCallbackHook'
 import UseRefHook from './react-hooks/UseRefHook'
 import ScrollViewRef from './react-hooks/ScrollViewRef'
 import FormHookUseCase from './reactCustomHooks/FormHookUseCase'
+import FetchHookUseCase from './reactCustomHooks/FetchHookUseCase'
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
 
   return (
     <>
-    <FormHookUseCase/>
+      <FetchHookUseCase/>
     </>
   )
 }
