@@ -10,3 +10,12 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## useRef hook:
+In this example i used a counter component to explain what useRef is and what is it used for , 
+as you can see useRef hook does not cause rerender a component unlike useState it is used to track how 
+many times have component rerendered,The ref has all sorts of html attributes like focus,style etc,
+you animate , transition and focus element , it is also good for interacting and accessing DOM elements,
+also managing Timers and Intervels
+ 
